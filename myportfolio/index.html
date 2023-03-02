@@ -1,9 +1,134 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>OJT Portfolio</title>
+		<link rel="stylesheet" href="assets/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="icon" href="assets/images/logo.svg">
+	</head>
+	<body class="bg-dark-subtle">
+		<main>
+			<!-- navigation bar -->
+			<header class="d-flex justify-content-between p-2 bg-dark position-fixed w-100 shadow p-3 mb-5 z-3">
+				<div class="d-flex align-items-center justify-content-center p-2">
+					<div class="icon">
+						<img src="./assets/images/logo.svg" alt="logo">
+					</div>
+					<div class="title">
+						<h3 class="text-light p-1">Portfolio</h3>
+					</div>
+				</div>
+				<div class="p-2 d-flex align-items-center">
+					<nav class="nav nav-pills nav-fill">
+						<a class="nav-link border border-primary" aria-current="page" href="#">Home</a>
+						<a class="nav-link" href="#">Skills</a>
+						<a class="nav-link" href="#">About</a>
+						<a class="nav-link" href="#">Contact</a>
+					</nav>
+				</div>
+				<div class="p-2">
+					<button type="button" class="btn btn-primary">Follow me</button>
+				</div>
+			</header>
+			
+			<!-- home page -->
+			<section class="home-page d-flex align-items-center justify-content-end p-3">
+				<div class="p-3 text-center">
+					<h1 class="text-light">I'm JOHN MICHAEL</h1>
+					<p class="text-info text-sm-start">Bachelor of Science in Information Technology</p>
+					<img src="./assets/images/pic.png" alt="my pic" width="200px" height="200px" class="rounded-circle rotate-1 my-pic">
+					<div class="d-flex flex-wrap justify-content-center con-social">
+						<div class="bg-primary p-2 rounded-circle"><img src="./assets/images/facebook.svg" alt="facebook" class="social-media"></div>
+						<div class="bg-primary p-2 rounded-circle"><img src="./assets/images/google.svg" alt="google" class="social-media"></div>
+						<div class="bg-primary p-2 rounded-circle"><img src="./assets/images/mail.svg" alt="mail" class="social-media"></div>
+					</div>
+				</div>
+			</section>
 
-</body>
+			<!-- skills page -->
+			<section class="skills-page p-3 bg-dark border-bottom border-dark-subtle">
+				<h1 class="text-center text-primary">Skills</h1>
+				<div class="container text-center p-3">
+					<div class="row gap-3">
+						<div class="col border border-dark-subtle rounded">
+							<h3 class="text-uppercase text-light">html</h3>
+							<p class="text-light">(Hypertext Markup Language)</p>
+							<p class="text-start text-secondary">HTML (Hypertext Markup Language) is a text-based approach to describing how content contained within an HTML file is structured. This markup tells a web browser how to display text, images and other forms of multimedia on a webpage.</p>
+						</div>
+						<div class="col border border-dark-subtle rounded">
+							<h3 class="text-uppercase text-light">CSS</h3>
+							<p class="text-light">(Cascading Style Sheets)</p>
+							<p class="text-start text-secondary">is used to style and layout web pages — for example, to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features.</p>
+						</div>
+						<div class="col border border-dark-subtle rounded">
+							<h3 class="text-uppercase text-light">JS</h3>
+							<p class="text-light">(Javascript)</p>
+							<p class="text-start text-secondary">is a dynamic programming language that's used for web development, in web applications, for game development, and lots more. It allows you to implement dynamic features on web pages that cannot be done with only HTML and CSS.</p>
+						</div>
+					</div>
+				</div>
+				<div class="container text-center p-3">
+					<div class="row gap-3">
+						<div class="col border border-dark-subtle rounded">
+							<h3 class="text-uppercase text-light">Java</h3>
+							<p class="text-start text-secondary">is an object-oriented programming language that produces software for multiple platforms. When a programmer writes a Java application, the compiled code (known as bytecode) runs on most operating systems (OS), including Windows, Linux and Mac OS.</p>
+						</div>
+						<div class="col border border-dark-subtle rounded">
+							<h3 class="text-uppercase text-light">sql</h3>
+							<p class="text-light">(Structured Query Language)</p>
+							<p class="text-start text-secondary">is a standardized programming language that is used to manage relational databases and perform various operations on the data in them. Initially created in the 1970s, SQL is regularly used not only by database administrators, but also by developers writing data integration scripts and data analysts looking to set up and run analytical queries.</p>
+						</div>
+						<div class="col border border-dark-subtle rounded">
+							<h3 class="text-uppercase text-light">php</h3>
+							<p class="text-light">(Personal Home Page)</p>
+							<p class="text-start text-secondary">originally derived from Personal Home Page Tools, now stands for PHP: Hypertext Preprocessor, which the PHP FAQ describes as a "recursive acronym." PHP executes on the server, while a comparable alternative, JavaScript, executes on the client.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- about page -->
+			<section class="about-page p-3 bg-dark border-bottom border-dark-subtle">
+				<div class="container">
+					<h1 class="text-center text-primary">About</h1>
+					<p class="text-light">I'm John Michael from University of Antique taking Bacheclor of Science in Information Technology and currently 4th year student.</p>
+				</div>
+			</section>
+			
+			<!-- contact page -->
+			<section class="contact-page p-3 bg-dark border-bottom border-dark-subtle">
+				<div class="container">
+					<h1 class="text-center text-primary">Contact</h1>
+					<div class="container text-left p-3">
+
+						<div class="row gap-3">
+							<div class="col border border-dark-subtle rounded">
+								<h3 class="text-capitalize text-light">Facebook</h3>
+								<div class="p-2 rounded-circle"><img src="./assets/images/facebook.svg" alt="facebook" class="social-media"></div>
+							</div>
+							<div class="col border border-dark-subtle rounded">
+								<h3 class="text-capitalize text-light">Google</h3>
+								<div class="p-2 rounded-circle"><img src="./assets/images/google.svg" alt="google" class="social-media"></div>
+							</div>
+							<div class="col border border-dark-subtle rounded">
+								<h3 class="text-capitalize text-light">Mail</h3>
+								<div class="p-2 rounded-circle"><img src="./assets/images/mail.svg" alt="mail" class="social-media"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- footer  -->
+			<footer class="footer p-3 bg-dark">
+				<p class="text-secondary fs-6">OJT Portfolio &copy; 2023</p>
+				<p class="text-secondary">All rights reserved.</p>
+			</footer>
+
+		</main>
+	</body>
 </html>

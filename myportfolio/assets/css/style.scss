@@ -1,0 +1,40 @@
+body{
+    .home-page{
+        background: url("../images/bg.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        width: 100%;
+
+        .my-pic{
+            transform: rotateZ(35deg);
+        }
+        .social-media{
+            width: 25px;
+        }
+        .con-social{
+            margin-top: .5em;
+            div{
+                margin:5px;
+                cursor: pointer;
+            }
+        }
+    }
+    .skills-page{
+        p{
+            text-indent: .5in;
+        }
+    }
+    .contact-page{
+        .social-media{
+            width: 25px;
+        }
+    }
+    .footer{
+        p{
+            margin-bottom: unset;
+        }
+    }
+}
